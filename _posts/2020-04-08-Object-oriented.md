@@ -45,9 +45,22 @@
 ### 面向对象的到底是语言还是程序？
 
 #### 基于类的程序
+```js
+class Person {
+  constructor(name) {
+    this.name = name;
+  }
+  sayHello() {
+    console.log("Hi, I am " + this.name);
+  }
+}
+var p = new Person('moling');
+console.log(p.name); // "moling"
+p.sayHello(); // "Hi, I am moling"
+```
 
 #### 基于原型的程序
-```
+```js
 function Person(name) {
   this.name = name
 }

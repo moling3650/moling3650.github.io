@@ -47,6 +47,17 @@
 #### 基于类的程序
 
 #### 基于原型的程序
+```
+function Person(name) {
+  this.name = name
+}
+Person.prototype.sayHello = function() {
+  console.log("Hi, I am " + this.name);
+}
+var p = new Person('moling');
+console.log(p.name); // "moling"
+p.sayHello(); // "Hi, I am moling"
+```
 
 ### 为什么只有JavaScipt会在面向对象和基于对象之间有争议？
 

@@ -73,5 +73,10 @@ p.sayHello(); // "Hi, I am moling"
 ```
 
 ### 为什么只有JavaScipt会在面向对象和基于对象之间有争议？
+准确来说，并没有什么基于对象，面向对象有两种编程范式，基于类或者是基于原型，JavaScript恰好是两种模式都可以写，又或者说，JavaScript用原型模拟了类。由于JavaScript极致的灵活性，所以才难有定论。
 
 ### 小结
+结论是，ECMAScript说它是一个OOP的语言，基于类OR基于原型，或者哪种编程范式更优，没有定论。
+
+> ECMAScript is an object-oriented programming language for performing computations and manipulating computational
+objects within a host environment. 

@@ -1,0 +1,1 @@
+import"./index-Bj0IGgE5.js";import{h as s}from"./http.DZwPGMfx.js";const e=e=>s.post("/oauth/token",{},e),t=e=>s.post("/pet/query",e),o=e=>s.post("/pet/bind",e),p=e=>s.post("/pet/update",e),a=e=>s.post(`/pet/delete?id=${e}`),r=s=>Promise.resolve({code:0,message:""}),d=s=>Promise.resolve({code:0,message:""});export{e as a,o as b,a as c,t as g,r as s,p as u,d as v};
